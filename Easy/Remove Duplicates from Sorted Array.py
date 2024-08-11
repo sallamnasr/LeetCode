@@ -9,6 +9,8 @@ class Solution:
             else:
                 idx += 1
                 nums[idx] = nums[i]
+                
         return idx + 1
+    
 if __name__ == "__main__" :
     pass
