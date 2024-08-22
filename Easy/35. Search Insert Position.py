@@ -13,12 +13,6 @@ class Solution:
             if nums[mid] == target :
                 return mid 
             
-            elif nums[r] == target :
-                return r 
-            
-            elif nums[l] == target :
-                return l 
-            
             elif nums[mid] > target :
                 r = mid
             
