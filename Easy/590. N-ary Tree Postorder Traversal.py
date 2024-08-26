@@ -17,3 +17,4 @@ class Solution:
                 res.append(node.val)
         traverse(root)
         return res
+    
